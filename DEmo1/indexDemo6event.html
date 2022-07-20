@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cacher et montrer</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--
+    <script src="js/jquery_vs_3.6.0.js"></script>
+    -->
+<!--    <script src="../js/Demo6event.js"></script>-->
+    <script src="../js/Demo6MesFonctionalités.js"></script>
+</head>
+<body>
+<h1>On va jouer à cache-cache</h1>
+<!--//créer des boutons-->
+<button id="btToutLeMondeSeCache">Tout le monde se cache !</button>
+<button id="btToutLeMondeApparait">Tout le monde apparaît !</button>
+<br>
+<button id="btleCapitaineSeCache">Le capitaine se cache !</button>
+<button id="btlesMarinsSeCachent">Les marins se cachent !</button>
+<button id="btlesPecheursSeCachent">Les pêcheurs se cachent !</button>
+<button id="btlesBateauxSeCachent">Les bâteaux se cachent !</button>
+
+<a href="https://www.afpa.fr/" id="afpaFormation">AFPA</a>
+
+
+<!--// création 1 capitaine - 1 équipage avec marins pécheurs-->
+<div id="capitaine"><img src="../valentin.png" width="150px">
+<p>Je suis le capitaine Focus</p></div>
+
+<div class="equipage">
+    <div class="marin"><img src="../charly.png" width="100px"></div>
+    <div class="marin"><img src="../charly.png" width="100px"></div>
+    <div class="marin"><img src="../charly.png" width="100px"></div>
+    <div class="marin"><img src="../charly.png" width="100px"></div>
+    <div class="marin"><img src="../charly.png" width="100px"></div>
+    <div class="pecheur"><img src="../poisson.png" width="100px"></div>
+    <div class="pecheur"><img src="../poisson.png" width="100px"></div>
+    <div class="pecheur"><img src="../poisson.png" width="100px"></div>
+</div>
+
+<!--// création de 2 bateau-->
+<div>
+    <div class="bateau">Bateau 1</div>
+    <div class="bateau">Bateau 2</div>
+</div>
+<script>abonnement();</script>
+</body>
+</html>

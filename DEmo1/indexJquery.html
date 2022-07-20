@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cacher et montrer</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><!--
+    <script src="js/jquery_vs_3.6.0.js"></script>
+    -->
+    <script src="../js/mesFonctionnalitésJQuery.js"></script>
+</head>
+<body>
+<h1>On va jouer à cache-cache</h1>
+<!--//créer des boutons-->
+<button onclick="allHidden()">Tout le monde se cache !</button>
+<button onclick="allAppear()">Tout le monde apparaît !</button>
+<br>
+<button onclick="cptHidden()">Le capitaine se cache !</button>
+<button onclick="mHidden()">Les marins se cachent !</button>
+<button onclick="pHidden()">Les pêcheurs se cachent !</button>
+<button onclick="bHidden()">Les bâteaux se cachent !</button>
+
+
+
+
+<div id="capitaine">Je suis le capitaine</div>
+
+
+<!--// création 1 capitaine - 1 équipage avec marins pécheurs-->
+<!--// création de 2 bateau-->
+<div class="equipage">
+    <div class="marin">M1</div>
+    <div class="marin">M2</div>
+    <div class="marin">M3</div>
+    <div class="marin">M4</div>
+    <div class="marin">M5</div>
+    <div class="pecheur">P1</div>
+    <div class="pecheur">P2</div>
+    <div class="pecheur">P3</div>
+</div>
+
+<div>
+    <div class="bateau">Bateau 1</div>
+    <div class="bateau">Bateau 2</div>
+</div>
+
+</body>
+</html>
